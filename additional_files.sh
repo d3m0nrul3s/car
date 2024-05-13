@@ -17,6 +17,8 @@ function check(){
       cp -rv /usr/bin/batcat /usr/bin/cat
       apt update 
       apt install mpv gobuster xclip
+      chmod +x scripts/*
+      cp -rv scripts/* /usr/bin/
   else
     echo "One or Two !!!!!!!!"; check
   fi
