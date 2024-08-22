@@ -1,12 +1,15 @@
 #!/bin/bash
 function check(){
-  read -p 'What is your system
-  1) arch
-  2) debian
-  Number your system: ' name
+  read -p '
+  -----------
+  1) Arch
+  -----------
+  2) Debian
+  -----------
+  -> ' name
   if [ "$name" == "1" ]; then
     sudo pacman -Sy
-    sudo pacman -S i3 i3-gaps polybar feh picom git python zsh slim bat btop zip unzip wget curl xclip rofi alacritty net-tools mpv flameshot ranger telegram-desktop kitty chromium neofetch figlet base base-devel
+    sudo pacman -S i3 i3-gaps polybar feh picom git python zsh slim batcat btop zip unzip wget curl xclip rofi alacritty net-tools mpv flameshot ranger telegram-desktop kitty chromium neofetch figlet base base-devel
     curl -O https://blackarch.org/strap.sh
   else
     if [ "$name" == "2" ]; then
@@ -14,7 +17,7 @@ function check(){
 
       sudo apt-get install -y arandr flameshot arc-theme feh i3blocks i3status i3 i3-wm lxappearance python3-pip rofi unclutter cargo compton papirus-icon-theme imagemagick
       sudo apt-get install -y libxcb-shape0-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev autoconf meson
-      sudo apt-get install -y libxcb-render-util0-dev libxcb-shape0-dev libxcb-xfixes0-dev i3lock-fancy polybar
+      sudo apt-get install -y libxcb-render-util0-dev libxcb-shape0-dev libxcb-xfixes0-dev i3lock-fancy polybar kitty
 
       fc-cache -fv
 
@@ -30,7 +33,7 @@ function check(){
 
       pip3 install pywal
   else
-    echo "One or Two !!!!!!!!"; check
+    echo "What the fuck... it's hard to fucking choose one or two....!!!!!!!!"; check
   fi
   fi
 }
