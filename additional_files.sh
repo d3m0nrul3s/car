@@ -1,9 +1,12 @@
 #!/bin/bash
 function check(){
-  read -p 'What is your system
+  read -p '
+  ---------------
   1) Final arch
-  2) Final debian 
-  Number your system: ' name
+  ---------------
+  2) Final debian
+  ---------------
+  -> ' name
   if [ "$name" == "1" ]; then
     cp -rv /usr/bin/cat /usr/bin/ca
     cp -rv /usr/bin/batcat /usr/bin/cat
