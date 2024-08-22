@@ -12,16 +12,19 @@ floating_modifier $mod
 #start polybar
 exec ~/.config/polybar/launch.sh
 
-#start chromium
+#start browser
 
 bindsym $mod+Shift+h exec firefox
 
 #picom start
 exec picom &
 
+# feh random images
+bindsym $mod+i exec bash ~/.fehbg
+
 #slimlock
 #bindsym $mod+Shift+d exec slimlock
-#bindsym $mod+Shift+d exec i3lock-fancy
+bindsym $mod+Shift+d exec i3lock-fancy
 
 # start a terminal
 bindsym $mod+Return exec alacritty
