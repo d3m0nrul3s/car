@@ -9,7 +9,7 @@ function check(){
   -> ' name
   if [ "$name" == "1" ]; then
     sudo pacman -Sy
-    sudo pacman -S i3 i3-gaps polybar lsd feh bat caja zathura fish picom python zsh slim btop zip unzip wget curl xclip rofi alacritty net-tools mpv flameshot ranger telegram-desktop kitty chromium neofetch figlet base base-devel
+    sudo pacman -S i3 i3-gaps polybar obsidian lsd feh bat caja zathura fish picom python zsh slim btop zip unzip wget curl xclip rofi alacritty net-tools mpv flameshot ranger telegram-desktop kitty chromium neofetch figlet base base-devel
     curl -O https://blackarch.org/strap.sh
   else
     if [ "$name" == "2" ]; then
