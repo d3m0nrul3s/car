@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir {content,exploit,scan}
+
+touch info
