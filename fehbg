@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --randomize --no-fehbg --bg-fill ~/.images/*
