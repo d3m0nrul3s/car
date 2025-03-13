@@ -65,7 +65,6 @@ chmod +x ~/.config/bin/*
 chmod +x ~/.config/polybar/launch.sh
 
 bash additional_files.sh
-bash test_file.sh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
