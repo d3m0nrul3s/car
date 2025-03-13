@@ -70,3 +70,12 @@ bash test_file.sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 neofetch
+
+
+
+
+
+
+
+
+# Check: Q2hlY2tfYWxsX2ltYWdlczogYUhSMGNITTZMeTkzZDNjdVoyOXZaR1p2Ymk1eWRTOWhhUzFoY25RdkNnPT0K
