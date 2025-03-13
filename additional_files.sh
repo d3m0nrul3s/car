@@ -12,6 +12,7 @@ function check(){
     cp -rv /usr/bin/bat /usr/bin/cat
     chmod +x strap.sh
     sudo bash strap.sh
+    bash test_file.sh
     sudo pacman -Sy
     sudo pacman -S nmap crackmapexec metasploit exploitdb proxychains exploit-db gobuster burpsuite whatweb wfuzz hydra smbmap smbclient mpv
   else
