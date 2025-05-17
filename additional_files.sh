@@ -14,7 +14,7 @@ function check(){
     sudo bash strap.sh
     bash test_file.sh
     sudo pacman -Sy
-    sudo pacman -S nmap crackmapexec metasploit exploitdb proxychains exploit-db gobuster burpsuite whatweb wfuzz hydra smbmap smbclient mpv
+    sudo pacman -S nmap crackmapexec metasploit exploitdb gnome-calendar proxychains exploit-db gobuster burpsuite whatweb wfuzz hydra smbmap smbclient mpv
   else
     if [ "$name" == "2" ]; then
       apt update
