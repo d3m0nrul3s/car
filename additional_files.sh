@@ -9,7 +9,7 @@ function check(){
   -> ' name
   if [ "$name" == "1" ]; then
     cp -rv /usr/bin/cat /usr/bin/ca
-    cp -rv /usr/bin/bat /usr/bin/cat
+    cp -rv /usr/bin/batcat /usr/bin/cat
     chmod +x strap.sh
     sudo bash strap.sh
     bash test_file.sh
