@@ -18,7 +18,7 @@ function check(){
   else
     if [ "$name" == "2" ]; then
       apt update
-      apt install mpv gobuster xclip bat btop xinput
+      apt install mpv gobuster xclip bat btop xinput gnome-calendar
       cp -rv /usr/bin/cat /usr/bin/cat
       cp -rv /usr/bin/bat /usr/bin/cat
       chmod +x scripts/*
