@@ -19,7 +19,7 @@ function check(){
     if [ "$name" == "2" ]; then
       apt update
       apt install mpv gobuster xclip bat btop xinput gnome-calendar nmap net-tools
-      cp -rv /usr/bin/cat /usr/bin/cat
+      cp -rv /usr/bin/cat /usr/bin/ca
       cp -rv /usr/bin/batcat /usr/bin/cat
       chmod +x scripts/*
       cp -rv scripts/* /usr/bin/
